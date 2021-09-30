@@ -1,0 +1,23 @@
+
+<h2>Rigistar persona</h2>
+
+<div>
+    <label>Identificación</label>
+    <input type="number" name="Id" [(ngModel)]="persona.Id">
+</div>
+
+<div>
+    <label> Nombre </label>
+     <input type="text" name="Nombre" [(ngModel)]="persona.nombre">
+</div>
+
+<div>
+    <label>Tipo de Ayuda</label>
+    <select tipo="tipo" [(ngModel)]="persona.tipo"> 
+        <option *ngFor='let ayuda of ayudas'> {{ayuda.tipo}}</option>
+        
+    </select></div>
+    <div>
+        <button type="button" click='add()'>Agregar</button>
+       
+    </div>

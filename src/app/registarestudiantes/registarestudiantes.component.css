@@ -1,0 +1,33 @@
+.navtop {
+    overflow: hidden;
+    background-color: rgb(138, 101, 197);
+    border-radius: 25px;
+}
+
+.navtop a {
+   
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.ao{
+    float: left;
+}
+
+.navtop a:hover {
+    color: rgba(255, 255, 255, 0.795);
+    border-radius: 25px;
+}
+.au:hover{
+    background-color: rgb(48, 48, 48);
+}
+.ao:hover{
+    background-color: rgb(73, 24, 24);
+}
+.navtop a.active {
+    background-color: #54dce6;
+    color: rgb(8, 3, 3);}
